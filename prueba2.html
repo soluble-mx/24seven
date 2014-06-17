@@ -1,0 +1,71 @@
+<head>
+<style type="text/css">
+	#marco_foto {
+		position: absolute;
+		top: -16px;
+		left: 128px;
+		width: 750px;
+		height: 460px;
+		overflow: hidden;
+	}
+
+	#tira_fotos {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+
+	#tira_fotos img {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+
+	#flecha_izquierda {
+		position: absolute;
+		top: 186px;
+		left: 73px;
+		cursor: pointer;
+	}
+	#flecha_derecha {
+		position: absolute;
+		top: 186px;
+		right: 66px;
+		cursor: pointer;
+	}
+	#iconos_reloj_solar {
+		position: absolute;
+		right: 224px;
+		top: 460px;
+		width: 453px;
+		height: 29px;
+	}
+	#iconos_reloj_solar img {
+		margin-right: 34px;
+		width: 24px;
+		cursor: pointer;
+	}
+</style>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+	    $('#marco_foto').bjqs({
+	        'height' : 750,
+	        'width' : 460,
+	        'responsive' : true
+	    });
+	});
+</script>
+
+</head>
+
+	<div id="marco_foto" >
+	  <ul id="tira_fotos" class="bjqs" >
+	    <li><img src="images/sunrise_home.jpg" /></li>
+	    <li><img src="images/noon_home.jpg" /></li>
+	    <li><img src="images/sunset_home.jpg" /></li>
+	    <li><img src="images/dusk_home.jpg" /></li>
+	    <li><img src="images/night_home.jpg" /></li>
+	    <li><img src="images/dawn_home.jpg" /></li>
+	  </ul>
+	</div>
+</body>

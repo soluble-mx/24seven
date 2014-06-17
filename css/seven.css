@@ -1,0 +1,1827 @@
+
+body {
+	font-family: 'Oxygen Mono', sans-serif;
+	font-size: 15px;	
+}
+
+#pagina_completa {
+	width: 1000px;
+	position: relative;
+	top: 0px;
+	left: 50%;
+	margin-left: -500px;
+}
+  /* aqui empieza el menu superior */
+#bloque_superior {
+	position: relative;
+	width: 1000px; 
+	height: 258px;
+	/*background-color: #1AC91A;*/
+	
+	z-index: 2;
+}
+#intro {
+	position: absolute;
+	top: 93px;
+	left: 81px;
+	cursor: pointer;
+} 
+
+#menu_superior {
+	font-family: 'Source Code Pro';
+	font-size: 12px;
+	position: absolute;
+	top: 50px;
+	right: 78px;
+	width: 246px;
+	height: 28px;
+	float: right;
+	border-top: 1px solid #202020; 
+	border-bottom: 1px solid #202020; 
+}
+
+#menu_superior span {
+	position: absolute;
+	top: 5px;
+	cursor: pointer;
+}
+/*#mi_cuenta {
+	left: 10px;
+}
+#registrate {
+	left: 102px;
+}*/
+#carrito {
+	left: 10px;
+}
+#acerca_de {
+	left: 102px;
+}
+#buscar_sitio {
+	font-family: 'Source Code Pro';
+	font-size: 11px;
+	position: absolute;
+	left:204px;
+	top: 2px;
+	width: 152px;
+	border: 1px solid #202020;
+}
+#menu_superior  #linea2 {
+	position: absolute;
+	left: 0px;
+	bottom: 2px;
+	height: 1px;
+	width: 100%;
+	border-bottom: 1px solid #202020;
+}
+#lupa {
+	position: absolute;
+	right: 78px;
+	top: 55px;
+	cursor: pointer;
+}
+  /* aqui acaba el menu superior */
+
+#social_network {
+	position: absolute;
+	right: 0px;
+	top: 102px;
+	width: 304px;
+	height: 31px;
+	cursor: pointer;
+}  
+#menu_terciario {
+	position: absolute;
+	right: 53px;
+	top: 153px;
+	width: 330px;
+	height: 24px;
+	/*border: 1px solid #202020; */
+
+}
+
+#menu_terciario div {
+	position: absolute;
+	top: 0px;
+	height: 20px;
+	background-color: #282828;
+	color: #FFFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	font-size: 13px;
+}
+
+#prensa {
+	left: 141px;
+	cursor: pointer;
+}
+#showroom_superior {
+	left: 60px;
+	cursor: pointer;
+}
+#forma_ideal {
+	left: 206px;
+	cursor: pointer;
+}
+
+#menu_principal {
+	position: absolute;
+	bottom: 0px;
+	left: 135px;
+	height: 16px;
+	width: 720px;
+	
+}
+#menu_principal h1,h2{
+	position: absolute;
+	top: 0px;
+}
+#menu_principal div{
+	position: absolute;
+	top: 0px;
+}
+#sunglasses {
+	left:0px;
+	font-family: 'Alegreya Sans';
+	font-size: 14px;
+	cursor: pointer;
+}
+#lv1 {
+	border-left: 1px solid #202020;
+	left: 118px;
+	width: 1px;
+	height: 100%;
+}
+#sunrise {
+	left: 145px;
+	font-family: 'Alegreya Sans';
+	font-size: 14px;
+	cursor: pointer;
+}
+#lv2 {
+	border-left: 1px solid #202020;
+	left: 236px;
+	width: 1px;
+	height: 100%;
+}
+#noon {
+	left: 263px;
+	font-family: 'Alegreya Sans';
+	font-size: 14px;
+	cursor: pointer;
+}
+#lv3 {
+	border-left: 1px solid #202020;
+	left: 328px;
+	width: 1px;
+	height: 100%;
+}
+#sunset {
+	left: 361px;
+	font-family: 'Alegreya Sans';
+	font-size: 14px;
+	cursor: pointer;
+}
+#lv4 {
+	border-left: 1px solid #202020;
+	left: 448px;
+	width: 1px;
+	height: 100%;
+}
+#dusk {
+	left: 481px;
+	font-family: 'Alegreya Sans';
+	font-size: 14px;
+	cursor: pointer;
+}
+#lv5 {
+	border-left: 1px solid #202020;
+	left: 550px;
+	width: 1px;
+	height: 100%;
+}
+#night {
+	left: 579px;
+	font-family: 'Alegreya Sans';
+	font-size: 14px;
+	cursor: pointer;
+}
+#lv6 {
+	border-left: 1px solid #202020;
+	left: 652px;
+	width: 1px;
+	height: 100%;
+}
+#dawn {
+	left: 684px;
+	font-family: 'Alegreya Sans';
+	font-size: 14px;
+	cursor: pointer;
+}
+ /*aqui acaba el bloque superior; */
+
+  /*aqui empieza el bloque intermedio; */
+#bloque_intermedio {
+	position: relative;
+	top: 46px;
+	width: 1000px; 
+	height: 823px;
+	/*position: absolute;*/
+}
+
+#marco_foto {
+	position: absolute;
+	top: -16px;
+	left: 128px;
+	width: 750px;
+	height: 460px;
+	overflow: hidden;
+}
+
+#tira_fotos {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#tira_fotos img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#flecha_izquierda {
+	position: absolute;
+	top: 186px;
+	left: 73px;
+	cursor: pointer;
+}
+#flecha_derecha {
+	position: absolute;
+	top: 186px;
+	right: 66px;
+	cursor: pointer;
+}
+#iconos_reloj_solar {
+	position: absolute;
+	right: 224px;
+	top: 460px;
+	width: 453px;
+	height: 29px;
+}
+#iconos_reloj_solar img {
+	margin-right: 34px;
+	width: 24px;
+	cursor: pointer;
+}
+/*aqui termina el bloque intermedio; */
+
+/*aqui empieza el bloque inferior; */ 
+#bloque_inferior {	 
+	position: relative;
+	left: 81px;
+	width: 1000px;	
+	/*position: absolute;	 
+	top: 847px; */	
+} 
+
+#social_network_inferior #siguenos {	 
+	margin-top: -40px;
+	font-family: 'Oxygen Mono';
+	font-size: 14px;
+	position: absolute;
+	top: 32px;
+	left: 0px; 
+}
+#social_network_inferior img {	 
+	cursor: pointer;
+}  
+#recibir_newsletter {
+	position: absolute;
+	left: 160px;
+	top: 0px;
+	width: 300px;
+	height: 40px;
+
+}
+#recibir_newsletter #recibe_nuestro { 
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	font-size: 13px;
+	position: absolute;
+	top: 6px;
+	left: 36px;
+	right: 1px;
+
+} 
+
+#recibir_newsletter #newsletter { 
+	font-family: 'Alegreya Sans';
+	font-weight: 600;
+	font-size: 15px;
+	position: absolute;
+	top: 22px;
+	left: 36px;
+	right: 1px; 
+	color: #1A1A1A;   
+}
+
+#correo_electronico {
+	width: 213px;
+	height: 28px;
+	font-family: 'Source Code Pro';
+	font-size: 11px;
+	position: absolute;
+	top: 8px;
+	right: 1px;
+	left: 140px;
+	color: #999999;
+	border: none;
+}
+#campo {
+
+	border: 1px solid #919191;
+	position: absolute;
+	top: 7px;
+	left: 133px;
+	width: 223px;
+	height: 28px;
+}
+#recibir_newsletter #politica_de_privacidad {
+	font-family: 'Source Code Pro';
+	font-size: 10px;
+	color: #4D4D4D;
+	position: absolute;
+	top: 43px;
+	left: 155px;
+	right: 1px;
+	width: 192px;
+	height: 50px;
+}
+#campo_dos {
+	border: 1px solid #919191;
+	position: absolute;
+	top: 42px;
+	left: 133px;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+
+}
+#recibir_newsletter img {
+	position: absolute;
+	top: 7px;
+	left: 361px;
+	right: 1px;
+	cursor: pointer;
+}
+#menu_inferior {
+	position: relative;
+	top: 63px;
+	left: 0px;
+	width: 1000px;
+	height: 100px;
+	color: #666666;
+}
+#atm {
+	width: 140px;
+}
+
+#atencion_al_cliente {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	font-family: 'Oxygen Mono';	 
+	font-size: 13px; 
+} 
+#contacto {
+	position: absolute;
+	top: 35px;
+	left: 4px;
+	font-family: 'Oxygen Mono'; 
+	font-size: 11px;
+	cursor: pointer;
+
+}
+#estandar_calidad_mdebajo {
+	position: absolute;
+	top: 60px;
+	left: 4px;
+	font-family: 'Oxygen Mono'; 
+	font-size: 11px;
+	cursor: pointer;
+} 
+#sobre_veinticuatro {
+	width: 140px;	
+}
+#veinticuatro_seven_acerca {
+	font-family: 'Oxygen Mono';	 
+	font-size: 13px;
+	position: absolute;
+	top: 1px;
+	left: 222px;
+}
+#veinticuatro_seven {
+	position: absolute;
+	top: 35px;
+	left: 222px;
+	font-family: 'Oxygen Mono';	 
+	font-size: 12px;
+	cursor: pointer; 
+}
+#showroom {
+	position: absolute;
+	font-family: 'Oxygen Mono'; 
+	font-size: 11px;
+	top: 60px;
+	left: 222px;
+	cursor: pointer;
+}
+#compra {
+	width: 140px;
+}
+
+#compra_text {
+	font-family: 'Oxygen Mono';	 
+	font-size: 13px;
+	position: absolute;
+	top: 1px;
+	left: 371px; 
+}
+
+#pasos_y_pago {
+	position: absolute;
+	font-family: 'Oxygen Mono';	 
+	font-size: 11px;
+	top: 35px;
+	left: 371px;
+	cursor: pointer;
+
+}
+
+#envio {
+	font-family: 'Oxygen Mono';	 
+	font-size: 12px;
+	position: absolute;
+	top: 60px;
+	left: 371px;
+	cursor: pointer; 
+
+}
+#condiciones_legales{
+	width: 200px;
+}
+
+#condiciones_legales_text {
+	position: absolute;
+	font-family: 'Oxygen Mono';	 
+	font-size: 13px;
+	top: 1px;
+	left: 667px;
+}
+
+#aviso_legal {
+	position: absolute;
+	font-family: 'Oxygen Mono';	 
+	font-size: 11px;
+	top: 35px;
+	left: 667px;
+	cursor: pointer; 
+}
+
+#colecciones {
+	width: 140px;
+}
+
+#colecciones_text {
+	position: absolute;
+	font-family: 'Oxygen Mono';	 
+	font-size: 13px;
+	top: 1px;
+	left: 514px; 
+}
+
+#reloj_de_sol {
+	position: absolute;
+	font-family: 'Oxygen Mono';	 
+	font-size: 11px;
+	top: 35px;
+	left: 514px;
+	cursor: pointer; 
+}
+
+#logo_inferior img {
+	position: absolute !important; 
+	top: 0px !important; 
+	right: 175px !important;  
+
+}
+
+
+
+#copyright {
+	position: absolute;
+	top: 268px;
+	left: 250px;
+	width: 312px;
+	height: 40px;
+	font-family: 'Source Code Pro';
+	font-size: 14px;
+	color: #494949;
+}
+
+.columnaA {
+	position: relative;
+	left: 0px;
+} 
+
+.columnaB {
+	position: relative;
+	left: 100px;
+	margin-top: -40px;
+	margin-bottom: 90px;
+} 
+
+.columnaB img {
+	cursor: pointer;
+} 
+
+
+.lineas {
+	position: relative;
+	left: 0px;
+	top:0px;
+}
+
+.nombreLinea {
+	position: relative;
+	left: 0px;
+	top:0px;
+	margin-left: 10px;
+	border-top: 1px solid #202020; 
+	border-left: 1px solid #202020; 
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 100px;
+
+}
+
+/* contacto */
+
+#contacto_html {
+	position: absolute;
+	left: 240px;
+	top: 60px;
+	width: 400px;
+	color: #3A3A3A; 
+}
+#contacto_text {
+	position: absolute;
+	top: 0px;
+	height: 20px;
+	width: 70px; 
+	background-color: #282828;
+	color: #FFFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	font-size: 13px;
+}
+#columna_a_contacto {
+	position: absolute;
+	left: 16px;
+	top: 8px;
+	width: 200px;
+	height: 125px;
+}
+#telefono{
+	position: absolute;
+	top: 50px;
+	font-size: 10px; 
+}
+#contacto_telefono{
+	position: absolute;
+	top: 70px;
+	font-size: 14px;
+	 
+}
+#email {
+	font-size: 10px;
+	position: absolute;
+	top: 100px; 
+}
+#contacto_correo{
+	font-size: 14px;
+	position: absolute;
+	top: 120px;
+}
+#columna_b_contacto{
+	position: absolute;
+	left: 150px;
+	top: 0px;
+	width: 250px;
+	height: 150px;
+	margin-left: 100px;
+	border-left: 1px solid #202020;
+	padding-left: 60px;  
+}
+#frase_contacto{
+	margin-top: 16px;
+	margin-left: 10px; 
+}
+
+
+/* fin contacto */
+
+/* pagos y envios */
+#bloque_pago_envios {
+	position: absolute;
+	left: 10px;
+	top: 60px;
+	width: 750px;
+}
+#parte_pagos {
+	position: absolute;
+	left: 190px;
+	top: 0px;
+	color: #3A3A3A;
+}
+#pasospago {
+	position: absolute;
+	width: 300px;
+	left: 0px;
+	top: 20px;
+	color: #3A3A3A;
+	font-size: 14px;
+}
+#uno {
+	position: absolute;
+	width: 200px;
+	left: 0px;
+	top: 50px;
+	color: #3A3A3A;
+	font-size: 12px;
+
+}
+#flecha_pago {
+	position: absolute;
+	left: 160px;
+	top: 51px;
+
+}
+#uno_a {
+	width: 150px;
+	position: absolute;
+	left: 225px;
+	top: 50px;
+	color: #3A3A3A;
+	float: right;
+	font-size: 12px;
+
+}
+#dos {
+	position: absolute;
+	width: 85px;
+	left: 0px;
+	top: 85px;
+	color: #3A3A3A;
+	font-size: 12px;
+
+}
+#flecha_pago_dos {
+	position: absolute;
+	left: 160px;
+	top: 85px;
+
+}
+#dos_a {
+	position: absolute;
+	left: 290px;
+	top: 85px;
+	width: 400px;
+	color: #3A3A3A;
+	font-size: 12px;
+
+}
+#tres {
+	position: absolute;
+	left: 0px;
+	top: 120px;
+	width: 400px;
+	height: 700px;
+	color: #3A3A3A;
+	font-size: 12px;
+
+}
+#credito_bloque {
+	position: absolute;
+	left: 0px;
+	top: 210px;
+}
+#credito {
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	color: #3A3A3A;
+	font-size: 10px;
+
+}
+#visa {
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	font-size: 10px;
+
+
+}
+#mastercard {
+	position: absolute;
+	left: 60px;
+	left: 100px;
+	top: 60px;
+}
+#americanexpress {
+	position: absolute;
+	left: 100px;
+	top: 60px;
+
+
+}
+#debito_bloque{
+	position: absolute;
+	left: 0px;
+	top: 380px;
+}
+#debito {
+	position: absolute;
+	left: 0px;
+	top: 60px;
+
+}
+#bancomer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+
+}
+#banamex {
+	position: absolute;
+	left: 60px;
+	top: 0px;
+
+}
+#hsbc {
+	position: absolute;
+	left: 100px;
+	top: 0px;
+
+
+}
+
+#santander {
+	position: absolute;
+	left: 60px;
+	top: 0px;
+	
+}
+#oxxo {
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	
+
+}
+#parte_envio {
+	position: absolute;
+	left: 1000px;
+	top: 60px;
+
+
+}
+#envios_titulo {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	color: #3A3A3A;
+	font-size: 14px;
+
+}
+#envio_gratis {
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	color: #3A3A3A;
+	font-size: 18px;
+
+}
+#tarda {
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	color: #3A3A3A;
+
+}
+#time {
+	position: absolute;
+	left: 0px;
+	top: 120px;
+	color: #3A3A3A;
+
+}
+
+/* fin de pagos y envios */
+
+/* inicia modelo */
+#modelo{
+	position: absolute;
+	top: 0px; 
+	left: 25px;
+	width: 1000px;
+	height: 444px;	
+}
+	
+#columna_izquierda {
+	position:absolute;
+	top: 0px;
+	left: 75px;
+	width: 608px;
+	height: 359px;	
+}
+.fotosModCh {
+	cursor: pointer;
+	
+}
+#fotos {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 608px;
+	height: 310px;	
+}
+
+#fotoGrande {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 1px solid #202020;
+}
+#fotoChicaDer {
+	z-index: 3;
+	position: absolute;
+	width: 61px;
+	left: 541px;
+	top: 275px;
+	border: 1px solid #202020;
+}
+#fotoChicaIzq {
+	z-index: 3;
+	position: absolute;
+	width: 61px;
+	left: 406px;
+	top: 275px;
+	border: 1px solid #202020;
+}
+#fotoChicaCentro {
+	z-index: 3;
+	position: absolute;
+	width: 61px;
+	left: 474px;
+	top: 275px;
+	border: 1px solid #202020;
+}
+#ver_descripcion {
+	position:absolute;
+	top: 320px;
+	left: 7px;
+	width: 97px;
+	height: 15px;
+	font-family: 'Carrois Gothic SC';
+	font-size: 13px;
+	background-color: #282828;
+	color: #FFFFFF;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 2px;	
+	cursor: pointer;
+}
+
+#contenedor_descripcion {
+	z-index: 2;
+	position:absolute;
+	width: 188px;
+	height: 312px;
+	left: 7px;
+	top:346px;
+	overflow: hidden;
+}
+#descripcion {
+	position:absolute;
+	width: 166px;
+	height: 113px;
+	left: 0px;
+	top:-316px;
+	background-color: #ffffff;
+	border: 1px solid #202020;
+	font-size: 10px;
+	padding: 10px;
+}
+
+#ver_caracteristicas {
+	position:absolute;
+	top: 320px;
+	left: 125px;
+	width: 120px;
+	height: 15px;
+	font-family: 'Carrois Gothic SC';
+	font-size: 13px;
+	background-color: #282828;
+	color: #FFFFFF;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 2px;	
+	cursor: pointer;
+}
+
+#contenedor_caracteristicas {
+	z-index: 2;
+	position:absolute;
+	width: 188px;
+	height: 312px;
+	left: 125px;
+	top:346px;
+	overflow: hidden;
+}
+#caracteristicas {
+	position:absolute;
+	width: 166px;
+	height: 160px;
+	left: 0px;
+	top:-193px;
+	background-color: #ffffff;
+	border: 1px solid #202020;
+	font-size: 10px;
+	padding: 10px;
+}
+
+#ver_estandar_calidad {
+	position:absolute;
+	top: 320px;
+	left: 266px;
+	width: 50px;
+	height: 15px;
+	font-family: 'Carrois Gothic SC';
+	font-size: 13px;
+	background-color: #282828;
+	color: #FFFFFF;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 2px;	
+	cursor: pointer;
+}
+
+#contenedor_estandar_calidad {
+	z-index: 2;
+	position:absolute;
+	width: 333px;
+	height: 312px;
+	left: 157px;
+	top:346px;
+	overflow: hidden;
+}
+#estandar_calidad {
+	position:absolute;
+	width: 302px;
+	height: 220px;
+	left: 0px;
+	top:-258px;
+	background-color: #ffffff;
+	border: 1px solid #202020;
+	font-size: 10px;
+	padding: 10px;
+}
+
+#comparte {
+	position:absolute;
+	top: 324px;
+	left: 426px;
+	width: 60px;
+	height: 20px;
+	font-family: 'Carrois Gothic SC';
+	font-size: 11px;	
+}
+#iconos_comparte {
+	position:absolute;
+	top: 316px;
+	left: 495px;
+	width: 135px;
+	height: 20px;	
+}
+
+#iconos_comparte img {
+	cursor: pointer;	
+}
+.fb-share-button {
+	position: relative;
+	background: url(images/iconos_redes/facebook.png);
+	float: left;
+}
+#columna_derecha {
+	position: absolute;
+	top: 1px;
+	left: 716px;
+	width: 230px;
+	height: 376px;	
+}
+#icono_coleccion{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#nombre{
+	position: absolute;
+	top: 41px;
+	left: 0px;
+	font-family: 'Carrois Gothic SC';
+	font-size:14px;
+
+}
+#precio{
+	position: absolute;
+	top: 66px;
+	left: 0px;
+	font-family: 'Oxygen Mono';
+	font-size:16px;
+}
+#iva {
+	position: absolute;
+	top: 88px;
+	left: 0px;
+	font-family: 'Oxygen Mono';
+	font-size:10px;
+}
+#powered_by_paypal{
+	position: absolute;
+	top: 109px;
+	left: 0px;
+	font-family: 'Oxygen Mono';
+	font-size: 14px;
+	background-color: #282828;
+	color: #FFFFFF;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 2px;	
+	cursor: pointer;
+}
+
+#cara_ideal_modelo{
+	position: absolute;
+	top: 195px;
+	left: 0px;
+	font-family: 'Alegreya Sans';
+	font-size: 13px;
+	font-weight: 400;
+	background-color: #282828;
+	color: #FFFFFF;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 2px;
+
+}
+#contenedor_cara{
+	position: absolute;
+	left: 0px;
+	top: 215px;
+	width: 192px;
+}
+#contenedor_cara_2{
+	position: absolute;
+	left: 0px;
+	top: 215px;
+	width: 192px;
+	padding: 18px;
+}
+#paypal_secure {
+	position: absolute;
+	top: 136px;
+}
+#paypal_secure img {
+	width: 89px;
+}
+#contenedor_cara_2 img{
+	margin-right: 6px;
+}
+/*#icono_cuadrada{
+	position: absolute;
+	top: 190px;
+	left: px;
+	float: right;
+}
+#icono_ovalada{
+	position: absolute;
+	top: 190px;
+	left: 0px;
+	float: right;
+}
+
+#icono_diamante{
+	position: absolute;
+	top: 190px;
+	left: 0px;
+	float: right;
+}
+
+#icono_triangular{
+	position: absolute;
+	top: 190px;
+	left: 0px;
+	float: right;
+}*/
+#linkear_forma_ideal{
+	position: absolute;
+	top: 285px;
+	left: 0px;
+	float: right;
+	font-family: 'Alegreya Sans';
+	font-weight: 400;
+	font-size: 11px;
+}
+#linkear_forma_ideal_a {
+	position: absolute;
+	top: 298px;
+	left: 0px;
+	font-family: 'Alegreya Sans';
+	font-weight: 600;
+	font-size: 16px;
+}
+.forma_ideal_click {
+	cursor: pointer;
+}
+
+.mosaico_modelos {
+	margin-left: 72px;
+}
+
+.columnaA .icono_reloj {
+	position: absolute;
+	left: 37px;
+	top: 50px;
+}
+
+/* pagos y envios */
+#bloque_pagos_envios {
+	position: absolute;
+	left: 10px;
+	top: -10px;
+	width: 750px;
+	height: 500px;
+	font-family: 'Alegreya Sans';
+	font-size: 13px;
+
+}
+#parte_pagos {
+	position: absolute;
+	left: 350px;
+	top: 34px;
+	color: #3A3A3A;
+	font-family: 'Alegreya Sans';
+	font-size: 13px;
+}
+#pasospago {
+	position: absolute;
+	width: 140px;
+	height: 22px;
+	left: 0px;
+	top: 6px;
+	color: #3A3A3A;
+	font-size: 14px;
+	font-family: 'Oxygen Mono';
+	background-color: #282828;
+	color: #FFFFFF;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	padding-bottom: -2px;
+
+}
+#uno {
+	position: absolute;
+	width: 200px;
+	left: 0px;
+	top: 70px;
+	color: #3A3A3A;
+	font-size: 14px;
+
+}
+#flecha_pago {
+	position: absolute;
+	left: 150px;
+	top: 71px;
+
+}
+#uno_a {
+	width: 150px;
+	position: absolute;
+	left: 225px;
+	top: 70px;
+	color: #3A3A3A;
+	float: right;
+	font-size: 14px;
+	font-weight: 500;
+
+}
+#dos {
+	position: absolute;
+	width: 85px;
+	left: 0px;
+	top: 123px;
+	color: #3A3A3A;
+	font-size: 14px;
+
+}
+#flecha_pago_dos {
+	position: absolute;
+	left: 95px;
+	top: 124px;
+
+}
+#dos_a {
+	position: absolute;
+	left: 174px;
+	top: 123px;
+	width: 150px;
+	color: #3A3A3A;
+	font-size: 14px;
+	font-weight: 500;
+
+}
+#tres {
+	position: absolute;
+	left: 0px;
+	top: 174px;
+	width: 400px;
+	color: #3A3A3A;
+	font-size: 15px;
+
+}
+#credito_bloque {
+	position: absolute;
+	left: 0px;
+	top: 154px;
+}
+#credito {
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	color: #3A3A3A;
+	font-size: 14px;
+	font-weight: 500;
+
+}
+#visa {
+	position: absolute;
+	left: 228px;
+	top: 94px;
+	font-size: 10px;
+
+
+}
+#mastercard {
+	position: absolute;
+	left: 0px;
+	top: 83px;
+}
+#americanexpress {
+	position: absolute;
+	left: 119px;
+	top: 92px;
+
+
+}
+#debito_bloque{
+	position: absolute;
+	left: 0px;
+	top: 442px;
+}
+#debito {
+	position: absolute;
+	left: 0px;
+	top: -93px;
+	font-size: 14px;
+	font-weight: 500;
+
+}
+#bancomer {
+	position: absolute;
+	left: 177px;
+	top: -5px;
+}
+#banamex {
+	position: absolute;
+	left: -7px;
+	top: -9px;
+
+}
+#hsbc {
+	position: absolute;
+	left: 129px;
+	top: -57px;
+
+
+}
+
+#santander {
+	position: absolute;
+	left: -3px;
+	top: -69px;
+}
+#oxxo {
+	position: absolute;
+	left: 259px;
+	top: -66px;
+
+}
+#parte_envio {
+	position: absolute;
+	left: 350px;
+	top: 558px;
+	width: 200px;
+
+
+
+}
+#envios_titulo {
+	position: absolute;
+	left: 0px;
+	top: -6px;
+	width: 49px;
+	height: 22px;
+	color: #3A3A3A;
+	font-size: 14px;
+	font-family: 'Oxygen Mono';
+	background-color: #282828;
+	color: #FFFFFF;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	padding-bottom: -2px;
+
+}
+#envio_gratis {
+	width: 400px;
+	position: absolute;
+	left: 0px;
+	top: 49px;
+	color: #3A3A3A;
+	font-size: 19px;
+	font-family: 'Alegreya Sans';
+	font-weight: 600;
+}
+#envio_gratis2 {
+	width: 400px;
+	position: absolute;
+	left: 0px;
+	top: 97px;
+	color: #3A3A3A;
+	font-size: 19px;
+	font-family: 'Alegreya Sans';
+	font-weight: 600;
+}
+
+#tarda {
+	width: 400px;
+	position: absolute;
+	left: 0px;
+	top: 71px;
+	color: #3A3A3A;
+	font-size: 14px;
+	font-family: 'Alegreya Sans';
+	font-weight: 400;
+
+}
+#tarda2 {
+	width: 400px;
+	position: absolute;
+	left: 0px;
+	top: 121px;
+	color: #3A3A3A;
+	font-size: 14px;
+	font-family: 'Alegreya Sans';
+	font-weight: 400;
+
+}
+#time {
+	position: absolute;
+	left: 0px;
+	top: 150px;
+	color: #3A3A3A;
+	width: 260px;
+	font-size: 14px;
+	font-family: 'Alegreya Sans';
+	font-weight: 500;
+
+}
+
+/* fin de pagos y envios */
+
+#aviso_legal_body {
+	width: 600px;
+	font-size: 11px;
+	margin-left: 200px;
+	color: #818181;
+}
+
+.titulo {
+	display: block;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 6px;
+}
+
+.subtitulo {
+	display: block;
+	font-size: 13px;
+	margin-top: 15px;
+	margin-bottom: 6px;
+}
+
+
+/*  forma ideal */
+#fi_grupo_1 {
+	position: absolute;
+	left: 140px;
+	top: 0px;
+	font-size: 11px
+}
+
+#fi_pregunta{
+	margin-bottom:20px 
+}
+#fi_respuesta{
+	font-size: 14px;
+	margin-bottom:20px
+}
+#fi_respuesta span {
+	background-color: #000000;
+	color: #ffffff;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+#fi_instruccion{
+
+}
+#fi_grupo_2 {
+	position: absolute;
+	left: 0px;
+	top: 148px;
+	font-size: 10px;
+		display: inline;
+}
+
+#fi_grupo_2 div {
+	position: absolute;
+	top: 0px;
+	width: 200px
+	height: 300px;
+
+}
+
+#fi_grupo_2 img {
+	width: 170px
+}
+
+#fi_grupo_2 div div {
+	position: absolute;
+	top: 122px;
+	width: 170px;
+	line-height: 12px;
+}
+
+#fi_c1 {
+	left: 0px;
+}
+
+#fi_c2 {
+	left: 200px;
+}
+
+#fi_c3 {
+	left: 400px;
+}
+
+#fi_c4 {
+	left: 600px;
+}
+
+#fi_c5 {
+	left: 800px;
+}
+
+#fi_grupo_3 {
+	position: absolute;
+	left: 140px;
+	top: 500px;
+}
+
+#fi_grupo_3 div {
+	position: absolute;
+}
+
+#fi_intro {
+	position: absolute;
+	left: 0px;
+	top:0px;
+	width: 600px;
+	font-size: 11px;
+}
+.fi_mod{
+	top:30px;
+}
+
+
+#fi_1{
+	left: 0px;
+}
+
+#fi_2{
+	left: 130px;
+}
+
+#fi_3{
+	left: 260px;
+}
+
+#fi_4{
+	left: 390px;
+}
+
+#fi_5{
+	left: 520px;
+}
+
+.fi_fondo{
+	width: 118px;
+}
+
+.fi_icono {
+	position: absolute;
+	
+}
+
+#fi_ic1{
+	top: 33px;
+	left: 41px;
+	width: 40px;
+}
+
+#fi_ic2{
+	top: 32px;
+	left: 40px;
+	width: 40px;
+}
+
+#fi_ic3{
+	top: 28px;
+	left: 31px;
+	width: 32px;
+}
+
+#fi_ic4{
+	top: 32px;
+	left: 39px;
+	width: 40px;
+}
+
+#fi_ic5{
+	top: 36px;
+	left: 37px;
+	width: 40px;
+}
+.fi_text{
+	position: absolute;
+	top: 99px;
+	left: 5px;
+	width: 105px;
+	background-color: #ffffff;
+	padding: 2px;
+	font-size: 11px;
+}
+
+#fi_pie{
+	position: absolute;
+	top:165px;
+	width: 600px;
+	font-size: 11px;
+}
+
+/* acaba forma ideal */
+
+/* inicia estandar */
+#estandar_de_calidad {
+	position: absolute;
+	top: 0px;
+	left: 132px;
+	width: 750px;
+	height: 500px;
+	font-family: 'Alegreya Sans';
+	font-weight: 400;
+	font-size: 12px;
+}
+#estandar {
+	width: 375px;
+	height: 500px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-family: 'Alegreya Sans';
+	font-weight: 500;
+	font-size: 16px;
+}
+#flecha_e_1 {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+#estandar_1 {
+	width: 300px;
+	height: 500px;
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	font-size: 14px;
+}
+#flecha_e_2 {
+	position: absolute;
+	top: 90px;
+	left: 0px;
+}
+#estandar_2 {
+	width: 300px;
+	position: absolute;
+	top: 90px;
+	left: 40px;
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	font-size: 14px;
+}
+#flecha_e_3 {
+	position: absolute;
+	top: 130px;
+	left: 0px;	
+}
+#estandar_3 {
+	width: 300px;
+	position: absolute;
+	top: 130px;
+	left: 40px;
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	font-size: 14px;
+}
+#caracteristicas_contenedor {
+	width: 375px;
+	height: 400px;
+	position: absolute;
+	top: 204px;
+	left: 0px;
+}
+#estandar_caracteristicas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-family: 'Alegreya Sans';
+	font-weight: 500;
+	font-size: 16px;
+}
+#flecha_e_4 {
+	position: absolute;
+	top: 50px;
+	left: 0px;	
+}
+#caracteristica_1 {
+	width: 300px;
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	font-size: 14px;
+}
+#flecha_e_5 {
+	position: absolute;
+	top: 90px;
+	left: 0px;	
+}
+#caracteristica_2 {
+	width: 375px;
+	height: 500px;
+	position: absolute;
+	top: 90px;
+	left: 40px;
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	font-size: 14px;
+}
+#flecha_e_6 {
+	position: absolute;
+	top: 130px;
+	left: 0px;	
+}
+#caracteristica_3 {
+	width: 375px;
+	height: 500px;
+	position: absolute;
+	top: 130px;
+	left: 40px;
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	font-size: 14px;
+}
+#flecha_e_7 {
+	position: absolute;
+	top: 170px;
+	left: 0px;	
+}
+#caracteristica_4 {
+	width: 375px;
+	height: 500px;
+	position: absolute;
+	top: 170px;
+	left: 40px;
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	font-size: 14px;
+}
+/*PRENSA*/
+.post{
+	height: auto;
+	margin: 0 12% 3% 12%;
+	padding: 0 20px;
+	width: 71%;
+	/*background-color: #8bd8bc;*/
+}
+.post2 {
+	/*background-color: #63d768;*/
+}
+#contenedor_prensa {
+	position: relative;
+	width: 1000px;
+	height: 400px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#cabecera_prensa {
+	height: 25px;
+	padding: 0 0 15px 0;
+}
+	#cabecera_prensa h3{
+		position: absolute;
+		background-color: #fff;
+		z-index:2;
+		padding: 0 9px;
+	}
+	.separador {
+		height: 1px;
+		background-color: #000000;
+		width: 70%;
+		margin-top: 10px;
+		position: absolute;
+	}
+
+#contenido_prensa {
+	height: auto;
+	font-size: 13px;
+	background-color: #ab84b3;
+}
+	#foto1 {
+		vertical-align: top;
+		margin: 0 5px 15px 0;
+	}
+	#descripcion_prensa {
+		font-size: 12px;
+		line-height: 17px;
+		float: left;
+		padding: 10px 23px 0 23px;
+		margin-bottom: 10px;
+		width: 270px;
+	}
+	#descripcion_prensa p{
+		margin: 8px 0;
+	}
+	#foto2 {
+		margin: 0 5px 15px 0;
+		
+	}
+#cuadrods { height: 80px; width: 30px; background-color: #bca11e;}
+/* fin estandar */
+

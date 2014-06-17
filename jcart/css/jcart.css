@@ -1,0 +1,161 @@
+
+#jcart_bkg {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	z-index: 9;
+
+	background-image: url("../../images/cart_bkg.png");
+}
+
+#jcart {
+	width: 88%;
+	height: auto;
+
+	position: relative;
+
+	background: #FFF;
+	z-index: 10;
+}
+
+/* CARRITO DIV*/
+#carrito_checkout {
+	width: 80%;
+	margin: 10px auto;
+	background-color: #01DF74;
+	z-index: 100;
+}
+
+/* CARRITO TABLA CRITERIOS GENERALES*/
+.datagrid {
+	font-size: 1em;
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	background: #fff; 
+	overflow: hidden; 
+}
+/* CARRITO TABLA GENERAL */
+.datagrid table { 
+	border-collapse: collapse; 
+	text-align: left; 
+	width: 100%; 
+} 
+.datagrid table td, 
+.datagrid table th { 
+	padding: 18px 20px;
+}
+/* CARRITO TABLA BODY */
+#ref_modelo span {
+	display: inline-block;
+}
+.carrito_thumbnail {
+	width: 50px;
+	margin-right: 8px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.ref_cantidad input {
+	width: 50px;
+	border: 1px solid ##282828;
+
+
+}
+
+input[type="number"] {
+	width: 50px;
+	border: 1px solid #282828 ;
+	line-height: 2;
+	padding: 2px 2px 2px 0px;
+	text-align: center;
+	-moz-appearance:textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.b_eliminar, .checks {
+	width: 20px;
+	height: 20px;
+	margin: auto;
+	cursor: pointer;
+	color: #282828;
+	text-align: center;
+	display: table !important;
+}
+
+.b_eliminar, .checks i {
+	display: table-cell;
+	vertical-align: middle;
+}
+.ref_costo_unit {
+	font-family: 'Oxygen Mono';
+	font-size: 12px;
+}
+.ref_total_unit, 
+.ref_total {
+	font-family: 'Oxygen Mono' !important;
+	font-size: 15px !important;
+}
+
+
+/* CARRITO FOOTER */
+.datagrid table tfoot tr:first-child { 
+	border-top: 1px solid #282828;
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	font-size: 1em;
+	padding: 18px 20px; 
+}
+.datagrid table tfoot tr:last-child { 
+	border-top: 4px double #282828;
+}
+.datagrid table tfoot span {
+	display: inline-block;
+	font-size: 12px; 
+	margin-top: 5px;
+}
+
+/* CARRITO	TABLA HEAD */
+.datagrid table thead th {
+	color:#282828; 
+	font-family: 'Alegreya Sans';
+	font-weight: 300;
+	font-size: 1em;
+	border-bottom: 1px solid #282828;
+} 
+
+#b_compra_paypal, #b_atras {
+	width: 100%;
+	height: inherit;
+	padding: 4px 2px;
+	background-color: #282828;
+	
+	color: #fff;
+	font-family: 'Oxygen Mono';
+	font-size: 14px;
+	text-align: center;
+	 
+	cursor: pointer;
+}
+
+#b_atras {
+	width: 25%;
+}
+
+#b_atras_link {
+	text-decoration: none;
+}
+
+
+
+#img_paypal {
+	width: 119%;
+	margin-top: 5px;
+}
